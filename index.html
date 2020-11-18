@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>kilometers to miles converter</title>
+  <meta name="Converts between km and miles" content="Converts between km and miles">
+  <meta name="author" content="Odin">
+
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="background-box">
+            <div id="title-box">
+                <h2 id="title-text">
+                    Convert kilometers to miles!
+                </h2>
+            </div>
+
+            <div id="input-box">
+                <p>
+                    <input id="input-bar" type="number" placeholder="Kilometers" oninput="kmToMiles(this.value)" onchange="kmToMiles(this.value)">
+                </p>
+            </div>
+
+            <div id="output-box">
+                  <p>Miles: <span id="calcMiles"></span></p>
+            </div>
+
+        </div>
+    </div>    
+
+
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
